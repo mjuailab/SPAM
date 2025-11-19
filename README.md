@@ -1,4 +1,4 @@
-# SPAM : Spatial transcriptomics Predictor with self-supervised Alignment of Multimodalities
+# 🐽 SPAM : Spatial transcriptomics Predictor with self-supervised Alignment of Multimodalities
 
 > **Integrating gene expression, spatial coordinates and histological features  
 > for predicting spatially resolved genes via Self-Supervised Learning**
