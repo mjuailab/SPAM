@@ -158,7 +158,7 @@ Adapt these paths to your own preprocessing pipeline.
       3. Fuses attended embeddings with cross attention module
       4. Predicts gene expression with a ZINB decoder head
          
-   You can download the pretrained model(Contrastive, just 10 epochs) here and put it in new folder checkpoints 👉 
+   You can download the pretrained model(Contrastive, just 10 epochs) here and put it in new folder checkpoints 👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
 
 4. 🔍 Inference (Gene Expression Prediction with biological context)
 * After finetuning, run inference to predict gene expression on new data.
@@ -183,11 +183,11 @@ Adapt these paths to your own preprocessing pipeline.
       * Predicted expression matrix (.h5ad / .csv)
       * Evaluation metrics (if GT is available)
       * Optional plots (PCC distribution, scatter plots, etc.)
-   
+        
+ you can use spot_patch_map_256.csv as we provide   👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
  >  If you prefer to route inference through main.py instead
  >  (e.g. python main.py inference ...), you can simply add an
  >  inference subcommand in main.py and reuse the same arguments.
- >  you can use spot_patch_map_256.csv as we provide   
  
 --- 
 ## 🪐 Tutorial
