@@ -132,8 +132,7 @@ Adapt these paths to your own preprocessing pipeline.
    The best pretraining checkpoint will typically be saved under
    ./checkpoints/pretrain/ (e.g. best.pt).
 
-
-2. 🎯 Cross-Attn + ZINB Finetuning
+3. 🎯 Cross-Attn + ZINB Finetuning
    * Finetune the model using cross-attention and a ZINB decoder for gene reconstruction.
    ```bash
    python main.py finetune \
@@ -158,8 +157,10 @@ Adapt these paths to your own preprocessing pipeline.
       2. Applies cross-attention between modality pairs (e.g., image ↔ gene & image ↔ coords)
       3. Fuses attended embeddings with cross attention module
       4. Predicts gene expression with a ZINB decoder head
+         
+   You can download the pretrained model(Contrastive, just 10 epochs) here and put it in new folder checkpoints 👉 
 
-3. 🔍 Inference (Gene Expression Prediction with biological context)
+4. 🔍 Inference (Gene Expression Prediction with biological context)
 * After finetuning, run inference to predict gene expression on new data.
    ```bash
    python inference.py \
@@ -186,7 +187,8 @@ Adapt these paths to your own preprocessing pipeline.
  >  If you prefer to route inference through main.py instead
  >  (e.g. python main.py inference ...), you can simply add an
  >  inference subcommand in main.py and reuse the same arguments.
-
+ >  you can use spot_patch_map_256.csv as we provide   
+ 
 --- 
 ## 🪐 Tutorial
 The jupyter notebook for usage & detailed experiments will update with:
