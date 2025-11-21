@@ -162,9 +162,10 @@ Adapt these paths to your own preprocessing pipeline.
       3. Fuses attended embeddings with cross attention module
       4. Predicts gene expression with a ZINB decoder head
          
-   You can download the pretrained model(Contrastive, just 10 epochs) here and put it in new folder checkpoints 👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
+   You can download the pretrained model(Contrastive, just 10 epochs) here and put it in new folder checkpoints
+   👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
 
-4. 🔍 Inference (Gene Expression Prediction with biological context)
+5. 🔍 Inference (Gene Expression Prediction with biological context)
 * After finetuning, run inference to predict gene expression on new data.
    ```bash
    python inference.py \
@@ -190,7 +191,6 @@ Adapt these paths to your own preprocessing pipeline.
         
  you can use csv & use image root as we provide (spot_match.csv and patches.tar.gz respectively)   
  Please unzip the patches.tar.gz to make directory!!
- 
  👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
  
  >  If you prefer to route inference through main.py instead
