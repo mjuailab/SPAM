@@ -164,7 +164,7 @@ Adapt these paths to your own preprocessing pipeline.
 5. 🔍 Inference (Gene Expression Prediction with biological context)
 * After finetuning, run inference to predict gene expression on new data.
    ```bash
-   python inference.py \
+   python main.py inference \
      --h5ad /path/to/section.h5ad \
      --csv /path/to/patch_map.csv \
      --root /path/to/image_root \
