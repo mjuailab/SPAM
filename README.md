@@ -188,7 +188,11 @@ Adapt these paths to your own preprocessing pipeline.
       * Evaluation metrics (if GT is available)
       * Optional plots (PCC distribution, scatter plots, etc.)
         
- you can use spot_patch_map_256.csv as we provide   👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
+ you can use csv & use image root as we provide (spot_match.csv and patches.tar.gz respectively)   
+ Please unzip the patches.tar.gz to make directory!!
+ 
+ 👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
+ 
  >  If you prefer to route inference through main.py instead
  >  (e.g. python main.py inference ...), you can simply add an
  >  inference subcommand in main.py and reuse the same arguments.
