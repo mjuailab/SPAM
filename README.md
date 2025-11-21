@@ -100,7 +100,8 @@ Adapt these paths to your own preprocessing pipeline.
 
 --- 
 ## 🚀 Usage
-🎃 If you have your own public Xenium datasets , please use alignment.ipynb first🎃
+🎃 If you have your own public Xenium datasets , please use alignment.ipynb first🎃 
+
 🧬 Or you can download the test sets here : https://www.10xgenomics.com/datasets/ffpe-human-breast-using-the-entire-sample-area-1-standard
 
 1. ↔️ Contrstive learning
