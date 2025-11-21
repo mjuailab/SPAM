@@ -70,13 +70,9 @@ git clone https://github.com/Dr-newbie/SPAM.git
 cd SPAM
 
 # (recommended) create conda env
-conda create -n spam_env python=3.10 -y
-conda activate spam_env
+conda env create -f enbironment.yml   
 
-# install dependencies
-pip install -r requirements.txt   # if you have it
-
-# Because we use Blackwell with cuda 12.9, you must install pytorch with below command (or install suitable pytorch with your settings)
+# Because we used Blackwell with cuda 12.9, you must install pytorch with below command (or install suitable CUDA & pytorch with your settings)
 pip3 install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
 ```
 --- 
