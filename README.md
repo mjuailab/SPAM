@@ -78,7 +78,8 @@ pip3 install --pre torch torchvision --index-url https://download.pytorch.org/wh
 --- 
 ## 📊 Data preparation
 
-Updates: we uploaded Human breast cancer dataset on our shared google drive link! Because of it's size (about 40GB) and data's characteristic, we were not able to upload toy data. 
+Updates: we uploaded Human breast cancer dataset on our shared google drive link! 
+Because of it's size (about 40GB) and data's characteristic, we were not able to upload toy data. 
 Please visit the link and download the datasets! 👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
 
 SPAM assumes three main inputs per section:
