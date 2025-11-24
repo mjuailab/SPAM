@@ -40,7 +40,7 @@ The training pipeline consists of:
 
 ## 📁 Repository Structure 
 
-(High-level description; file names may be updated.)
+Please make "code" directory firstly if you clone this git repository
 
 ```text
 SPAM/
@@ -77,6 +77,10 @@ pip3 install --pre torch torchvision --index-url https://download.pytorch.org/wh
 ```
 --- 
 ## 📊 Data preparation
+
+Updates: we uploaded Human breast cancer dataset on our shared google drive link! Because of it's size (about 40GB) and data's characteristic, we were not able to upload toy data. 
+Please visit the link and download the datasets! 👉 https://drive.google.com/drive/folders/1UXd_HEHfjjrtawK-ZQ6tEX3HQ6Va1NRX?usp=sharing
+
 SPAM assumes three main inputs per section:
 1. Spatial transcriptomics (.h5ad)
    *  e.g. Xenium / Visium h5ad containing cell/spot × gene matrix
