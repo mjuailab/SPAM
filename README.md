@@ -1,7 +1,6 @@
 # 🐽 SPAM : Spatial transcriptomics Predictor with self-supervised Alignment of Multimodalities
 
-> **Integrating gene expression, spatial coordinates and histological features  
-> for predicting spatially resolved genes via Self-Supervised Learning**
+> **Context-aware spatial gene expression prediction from histology with multimodal self-supervised learning**
 >
 > Jaeyun Park, Dongsin Kim, Minsik Oh*  
 > College of Data Technology, Myongji University
@@ -12,11 +11,9 @@
 
 **SPAM** is a multimodal framework for **predicting spatially resolved gene expression** from:
 
-
 <p align='center'>
-<img width="70% alt="Image" src="https://github.com/user-attachments/assets/5b3bd5dd-079b-45bf-9e4b-2c6556b53bb2" />  
+<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/fba1dd38-7f7d-49b2-a380-be275b531fe2" />
 </p>
-
 
 - Histology image features (H&E patches, foundation models)
 - Spatial coordinates (cell / spot locations)
