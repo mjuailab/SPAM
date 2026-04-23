@@ -1,3 +1,4 @@
+
 # 🐽 SPAM : Spatial transcriptomics Predictor with self-supervised Alignment of Multimodalities
 
 > **Context-aware spatial gene expression prediction from histology with multimodal self-supervised learning**
@@ -6,13 +7,12 @@
 > College of Data Technology, Myongji University
 
 ---
-
 ## 🧬 Overview 
 
 **SPAM** is a multimodal framework for **predicting spatially resolved gene expression** from:
 
 <p align='center'>
-<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/fba1dd38-7f7d-49b2-a380-be275b531fe2" />
+<img width="70%" alt="Image" src="[https://github.com/user-attachments/assets/fba1dd38-7f7d-49b2-a380-be275b531fe2](https://github.com/user-attachments/files/26992411/overview_final_0.51.pdf)" />
 </p>
 
 - Histology image features (H&E patches, foundation models)
