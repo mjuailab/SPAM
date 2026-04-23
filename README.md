@@ -12,7 +12,7 @@
 **SPAM** is a multimodal framework for **predicting spatially resolved gene expression** from:
 
 <p align='center'>
-<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/044df202-a33e-444c-bdf9-578ab22db799" />
+<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/911425d4-c0d1-49cf-b8d5-2d95461ce6e5" />
 </p>
 
 - Histology image features (H&E patches, foundation models)
